@@ -1,8 +1,0 @@
-pandas
-numpy
-Flask
-sklearn
-scikit-learn
-xgboost
-pickle
-matplotlib
