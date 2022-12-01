@@ -1,5 +1,4 @@
-"""PRML_Course_Project.ipynb
-"""
+
 import sys
 import warnings
 import pandas as pd
@@ -11,10 +10,12 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import OneHotEncoder
 from xgboost import XGBClassifier
+from sklearn.ensemble import RandomForestClassifier
+
 warnings.filterwarnings('ignore')
 
 df = pd.read_csv('heart.csv')
-clf = XGBClassifier()
+clf = RandomForestClassifier()
 
 # selected features
 selected_features= ['Age', 'Sex', 'ChestPainType', 'FastingBS', 'ExerciseAngina', 'Oldpeak', 'ST_Slope']
@@ -38,4 +39,4 @@ my_pipeline = Pipeline(steps=[('preprocessor', preprocessor),
 
 my_pipeline.fit(X, y)
 
-pickle.dump(my_pipeline, open('saved_model.pkl','wb'))
+pickle.dump(my_pipeline, open('saved_model1.pkl1','wb'))
