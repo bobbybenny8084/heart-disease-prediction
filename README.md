@@ -18,21 +18,3 @@
 11. ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 12. HeartDisease: output class [1: heart disease, 0: Normal]
 
-#### Type of Machine Learning task : 
-It is an classification problem where given a set of features we need to predict whether that person is prone to heart diseases or not.
-
-#### Performace Metric
-Since it is an classification problem we will use AUC-ROC, F1-score, Accuracy, Precision, Recall, and Confusion Matrix.
-
-### Website Interface:
-![image](https://user-images.githubusercontent.com/86458423/166304964-db302edd-649d-46eb-9760-aad7b196e950.png)
-
-Explore different functionalities using nav-bar
-
-![image](https://user-images.githubusercontent.com/86458423/166305153-118eb910-aec7-4bc4-b223-641c1463fa0c.png)
-
-Enter details for prediction in the form
-
-![image](https://user-images.githubusercontent.com/86458423/166305267-95264d16-e9e5-4c7c-88bd-419672af00c4.png)
-
-Know your Results!!!
